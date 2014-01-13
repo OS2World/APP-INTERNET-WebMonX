@@ -1,0 +1,49 @@
+WebMonX
+http://debfx.fobos.de/webmonx/
+-------------------------------
+
+Release 0.3.3 (2010-02-22)
+ * Make "scroll to" buttons in the content dialog work for regexp
+ * Fixed: possible crash when canceling checks
+ * Fixed: compiliation error regarding "getenv" (Bug: #2789429)
+ * Fixed: adding pages without a protocol (Bug: #2767213)
+ * Improved detection if WebMonX is running (Bug: #2489327)
+ * Improve audio playback on Linux
+ * Relicense under GPLv2/GPLv3
+
+Release 0.3.2 (2008-03-27)
+ * Fixed: HTTP redirection with relative URLs
+
+Release 0.3.1 (2008-03-25)
+ * Added: jump button in content dialog
+ * Fixed: sorting by status
+ * Fixed: updated state of the tray icon
+ * Fixed: "file" protocol did not work
+ * Added check if regexp is valid
+ * Added safety check when using invalid protocol
+
+Release 0.3.0 (2007-11-01)
+ * Complete internal rewrite
+ * Dropped dependency on libcurl
+ * Added support for authentication and http referer
+ * Added: middle click on tray icon opens all updated pages
+ * Added: tray icon changes when there are updated pages
+ * Added "Always stay on top" option
+ * Fixed: Open buttons in Page Dialog did not work
+
+Release 0.2.0 (2007-04-07)
+ * Added support for proxy servers (manual, auto-detect, none)
+ * Added some visual settings (start hidden, minimize to tray, ...)
+ * Added option to set a fake referer
+ * Added ability to run a command when an update is found
+ * Added tray icon context menu
+ * Added logging of page updates
+ * Added missing open file dialogs
+ * Pages are saved on every change
+ * Fixed: Didn't open alternative address when set
+ * Enhanced browser auto-detect
+ * Changed hashing from CRC32 to MD5 (when updating to 0.2.0 all pages will be marked as updated)
+ * Regular Expressions: First use the submatch and if there is none the whole match
+
+Release 0.1.0 (2007-01-06)
+ * Initial release

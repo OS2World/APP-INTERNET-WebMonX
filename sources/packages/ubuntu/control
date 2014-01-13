@@ -1,0 +1,13 @@
+Source: webmonx
+Section: web
+Priority: optional
+Maintainer: Felix Geyer <sniperbeamer_pkg@fobos.de>
+Build-Depends: debhelper (>= 5), libqt4-dev (>= 4.3.0)
+Standards-Version: 3.7.2
+
+Package: webmonx
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Website update monitoring tool
+ WebMonX monitors websites and notifies the user about updates.
+ It is a cross-platform port of WebMon.

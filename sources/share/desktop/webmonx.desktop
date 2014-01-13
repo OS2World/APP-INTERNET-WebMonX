@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=WebMonX
+Exec=webmonx
+Icon=webmonx
+GenericName=Website monitor
+Comment=A website update monitoring tool
+Terminal=false
+Categories=Network;

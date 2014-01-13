@@ -1,0 +1,3 @@
+?package(webmonx):needs="X11" section="Apps/Net"\
+  title="WebMonX" command="/usr/bin/webmonx"\
+  icon="/usr/share/pixmaps/webmonx.xpm"

@@ -1,0 +1,17 @@
+WebMonX
+http://debfx.fobos.de/webmonx/
+-------------------------------
+
+Dependency:
+Qt >= 4.3.0
+
+Installation:
+qmake / qmake-qt4 (depending on distribution)
+make
+make install (as root)
+
+By default WebMonX is installed to /usr/local, but you can modify the location:
+	qmake / qmake-qt4 PREFIX=/my/dir
+
+To build in debug mode:
+	qmake / qmake-qt4 DEBUG=1
